@@ -1,0 +1,133 @@
+.hover:hover {
+  background-color: #272727;
+}
+.scroll-bar {
+  overflow-y: scroll;
+}
+.scroll-bar::-webkit-scrollbar {
+  width: 5px;
+}
+.scroll-bar::-webkit-scrollbar-track {
+  background: #272727;
+}
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
+.subscriptions-bar {
+  display: none;
+}
+
+.scroll-flex {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.scroll-bar-main {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.channel-hover:hover {
+  color: rgb(222, 215, 215);
+}
+.text-grey {
+  color: grey;
+}
+body {
+  overflow: hidden;
+  background-color: #0f0f0f !important;
+}
+.small-sidebar,
+.small-navbar {
+  display: none !important;
+}
+.trending-icon {
+  display: none;
+}
+.latest-section {
+  display: flex !important;
+}
+.mar-left {
+  margin: 10px 20px;
+}
+.footer {
+  display: none;
+  font-size: 12px;
+}
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    display: none !important;
+  }
+  .small-sidebar {
+    display: flex !important;
+  }
+  .main {
+    width: 92vw !important;
+  }
+  .trending-icon {
+    display: block;
+  }
+  .subscriptions-bar {
+    display: flex;
+  }
+  .latest-section {
+    display: none !important;
+  }
+  .mar-left {
+    margin: 5px 10px;
+  }
+  .trending-videos,
+  .trending-shorts {
+    width: 100% !important;
+  }
+  .profile-img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none !important;
+  }
+  .small-navbar {
+    display: flex !important;
+  }
+  .small-sidebar {
+    display: none !important;
+  }
+  .main {
+    width: 100vw !important;
+  }
+  .footer {
+    display: block;
+  }
+  .trending-videos {
+    flex-direction: column;
+  }
+  .mar-left {
+    margin: 5px 10px;
+  }
+  .thumbnail {
+    width: 100% !important;
+  }
+  .trending-para {
+    display: none;
+  }
+  .main-margin {
+    margin: 0 0 !important;
+  }
+  .profile-img {
+    width: 80px;
+  }
+  .order-icon {
+    display: none;
+  }
+  .watch-later-span {
+    display: none;
+  }
+}

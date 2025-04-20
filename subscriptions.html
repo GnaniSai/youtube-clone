@@ -1,0 +1,1647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div style="font-family: sans-serif; background-color: #0f0f0f">
+      <div
+        class="position-sticky"
+        style="height: 56.5px; top: 0; background-color: #0f0f0f"
+      >
+        <div
+          class="justify-content-between align-items-center me-3 ms-2 h-100 small-navbar"
+        >
+          <div class="d-flex gap-4 align-items-center">
+            <div class="d-flex align-items-center gap-1">
+              <img src="images/icons/youtube-logo.svg" alt="youtube-logo" />
+              <div class="pb-4">
+                <span style="color: rgb(205, 200, 200); font-size: 10px"
+                  >IN</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/icons/search.svg" alt="" />
+          </div>
+        </div>
+        <div
+          class="justify-content-between align-items-center me-3 ms-2 h-100 navbar"
+          style="display: flex"
+        >
+          <div class="d-flex gap-4 align-items-center">
+            <div>
+              <img src="images/icons/menu.svg" alt="menu" />
+            </div>
+            <div class="d-flex align-items-center gap-1">
+              <img src="images/icons/youtube-logo.svg" alt="youtube-logo" />
+              <div class="pb-4">
+                <span style="color: rgb(205, 200, 200); font-size: 10px"
+                  >IN</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex gap-3 align-items-center" style="width: 43%">
+            <div
+              class="d-flex align-items-center w-100 rounded-pill"
+              style="border: 1px solid #303030; height: 40px"
+            >
+              <input
+                type="search"
+                name="searchbar"
+                id="searchbar"
+                placeholder="Search"
+                class="w-100 h-100 ps-3 border-0"
+                style="
+                  caret-color: white;
+                  outline: none;
+                  color: white;
+                  background-color: rgba(0, 0, 0, 0);
+                "
+              />
+              <div
+                class="ps-3 pe-3 p-2 rounded-pill rounded-start"
+                style="
+                  background-color: #ffffff14;
+                  border-left: 1px solid #303030;
+                "
+              >
+                <img src="images/icons/search.svg" alt="search" />
+              </div>
+            </div>
+            <div class="p-2 rounded-pill" style="background-color: #ffffff14">
+              <img src="images/icons/mic.svg" alt="mic" />
+            </div>
+          </div>
+
+          <div class="d-flex gap-4 align-items-center">
+            <div
+              class="pt-2 pb-2 ps-3 pe-3 rounded-pill"
+              style="background-color: #ffffff14"
+            >
+              <img src="images/icons/add.svg" alt="add" />
+              <span class="text-white fw-bold" style="font-size: 14px"
+                >Create</span
+              >
+            </div>
+
+            <div>
+              <img
+                src="images/icons/notification-bell.svg"
+                alt="notification-bell"
+              />
+            </div>
+
+            <div>
+              <img
+                src="images/Gnani Profile_1.png"
+                alt="profile picture"
+                width="30"
+                height="30"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div
+          class="flex-column gap-2 p-2 small-sidebar"
+          style="max-width: 70px"
+        >
+          <div class="p-2 pt-3 pb-3 rounded hover">
+            <a
+              href="home.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none text-white"
+              style="font-size: 12px"
+            >
+              <img src="images/icons/home.svg" alt="home" />
+              <span>Home</span></a
+            >
+          </div>
+
+          <div class="p-2 pt-3 pb-3 rounded hover">
+            <a
+              href="#"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none text-white"
+              style="font-size: 12px"
+            >
+              <img src="images/icons/shorts.svg" alt="shorts" />
+              <span>Shorts</span></a
+            >
+          </div>
+
+          <div class="p-2 pt-3 pb-3 rounded hover">
+            <a
+              href="subscriptions.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none text-white"
+              style="font-size: 12px"
+            >
+              <img src="images/icons/subscriptions.svg" alt="subscriptions" />
+              <span>Subscriptions</span></a
+            >
+          </div>
+
+          <div class="p-2 pt-3 pb-3 rounded hover">
+            <a
+              href="watch-later.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none text-white"
+              style="font-size: 12px"
+            >
+              <img src="images/icons/you.svg" alt="you" />
+              <span>You</span></a
+            >
+          </div>
+        </div>
+
+        <div
+          class="p-3 text-white scroll-bar sidebar"
+          style="max-width: 250px; max-height: 92.3vh"
+        >
+          <div class="p-2 rounded hover">
+            <a
+              href="home.html"
+              class="d-flex align-items-center gap-4 text-decoration-none text-white"
+              style="font-size: 15px"
+            >
+              <img src="images/icons/home.svg" alt="" />
+              <span>Home</span></a
+            >
+          </div>
+
+          <div class="p-2 rounded hover">
+            <a
+              href="#"
+              class="d-flex align-items-center gap-4 text-decoration-none text-white"
+              style="font-size: 15px"
+            >
+              <img src="images/icons/shorts.svg" alt="" />
+              <span>Shorts</span></a
+            >
+          </div>
+
+          <div class="p-2 rounded" style="background-color: #272727">
+            <a
+              href="subscriptions.html"
+              class="d-flex align-items-center gap-4 text-decoration-none text-white"
+              style="font-size: 15px"
+            >
+              <img src="images/icons/subscriptions.svg" alt="" />
+              <span> Subscriptions</span></a
+            >
+          </div>
+          <hr />
+
+          <div>
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white fw-bold"
+                style="font-size: 17px"
+              >
+                <p class="m-0 lh-0 p-0">
+                  You
+                  <span
+                    ><img src="images/icons/greater-than.svg" alt="you"
+                  /></span>
+                </p>
+              </a>
+            </div>
+
+            <div class="pb-1">
+              <div class="p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/history.svg" alt="history" />
+                  <span>History</span></a
+                >
+              </div>
+
+              <div class="p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/playlist.svg" alt="playlist" />
+                  <span>Playlists</span></a
+                >
+              </div>
+
+              <div class="p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/videos.svg" alt="videos" />
+                  <span>Your videos</span></a
+                >
+              </div>
+
+              <div class="p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/courses.svg" alt="courses" />
+                  <span>Your courses</span></a
+                >
+              </div>
+
+              <div class="p-2 rounded hover">
+                <a
+                  href="watch-later.html"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/watch-later.svg" alt="watch-later" />
+                  <span>Watch Later</span></a
+                >
+              </div>
+
+              <div class="p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/liked.svg" alt="" />
+                  <span>Liked videos</span></a
+                >
+              </div>
+            </div>
+            <hr />
+          </div>
+
+          <div>
+            <h6>Subscriptions</h6>
+            <div class="d-flex flex-column gap-1">
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="channel.html"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img
+                    src="images/subscriptions/sub1.png"
+                    alt="sub1 image"
+                    width="25"
+                    height="25"
+                    class="rounded-pill"
+                  />
+                  <span style="font-size: 14px">Dodagatta Nihar</span></a
+                >
+              </div>
+
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img
+                    src="images/subscriptions/sub2.png"
+                    alt="sub2 image"
+                    width="25"
+                    height="25"
+                    class="rounded-pill"
+                  />
+                  <span style="font-size: 14px">Harsha Verse</span></a
+                >
+              </div>
+
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img
+                    src="images/subscriptions/sub3.png"
+                    alt="sub3 image"
+                    width="25"
+                    height="25"
+                    class="rounded-pill"
+                  />
+                  <span style="font-size: 14px">Browney</span></a
+                >
+              </div>
+
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img
+                    src="images/subscriptions/sub4.png"
+                    alt="sub4 image"
+                    width="25"
+                    height="25"
+                    class="rounded-pill"
+                  />
+                  <span style="font-size: 14px">Jasti</span></a
+                >
+              </div>
+
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img
+                    src="images/subscriptions/sub5.png"
+                    alt="sub5 image"
+                    width="25"
+                    height="25"
+                    class="rounded-pill"
+                  />
+                  <span style="font-size: 14px">Mr Beast</span></a
+                >
+              </div>
+
+              <div class="d-flex align-items-center gap-4 p-2 rounded hover">
+                <a
+                  href="#"
+                  class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                  style="font-size: 15px"
+                >
+                  <img src="images/icons/show-more.svg" alt="show-more" />
+                  <span style="font-size: 14px">Show more</span></a
+                >
+              </div>
+
+              <hr />
+            </div>
+          </div>
+
+          <div>
+            <h6>Explore</h6>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="trending.html"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/trending.svg" alt="trending" />
+                <span>Trending</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/shopping.svg" alt="shopping" />
+                <span>Shopping</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/music.svg" alt="" />
+                <span>Music</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/films.svg" alt="films" />
+                <span>Films</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/live.svg" alt="live" />
+                <span>Live</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/gaming.svg" alt="gaming" />
+                <span>Gaming</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/news.svg" alt="news" />
+                <span>News</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/sports.svg" alt="sports" />
+                <span>Sport</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/courses2.svg" alt="courses2" />
+                <span>Courses</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img
+                  src="images/icons/fashion-beauty.svg"
+                  alt="fashion-beauty"
+                />
+                <span>Fashion & Beauty</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/podcasts.svg" alt="podcasts" />
+                <span>Podcasts</span></a
+              >
+            </div>
+
+            <hr />
+          </div>
+
+          <div>
+            <h6>More on YouTube</h6>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img
+                  src="images/icons/youtube-premium.svg"
+                  alt="youtube-premium"
+                />
+                <span>YouTube Premium</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img
+                  src="images/icons/youtube-studio.svg"
+                  alt="youtube-studio"
+                />
+                <span>YouTube Studio</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/youtube-music.svg" alt="youtube-music" />
+                <span>YouTube Music</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/youtube-kids.svg" alt="youtube-kids" />
+                <span>YouTube Kids</span></a
+              >
+            </div>
+
+            <hr />
+          </div>
+
+          <div>
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/settings.svg" alt="settings" />
+                <span>Settings</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img
+                  src="images/icons/report-history.svg"
+                  alt="report-history"
+                />
+                <span>Report History</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/help.svg" alt="help" />
+                <span>Help</span></a
+              >
+            </div>
+
+            <div class="p-2 rounded hover">
+              <a
+                href="#"
+                class="d-flex align-items-center gap-4 text-decoration-none text-white"
+                style="font-size: 15px"
+              >
+                <img src="images/icons/feedback.svg" alt="feedback" />
+                <span>Send Feedback</span></a
+              >
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="ps-2 pe-2">
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >About</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Press</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+            >
+              Copyright</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Contact us</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Creater</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Advertise</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Developer</a
+            >
+          </div>
+
+          <div class="p-2">
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Terms</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Privacy</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Policy & Safety</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >How YouTube works</a
+            >
+            <a
+              href="#"
+              class="text-decoration-none fw-bold"
+              style="font-size: 13px; color: rgb(164, 162, 162)"
+              >Test new features</a
+            >
+          </div>
+
+          <div class="pe-2 ps-2">
+            <span style="color: rgb(97, 90, 90); font-size: 12px"
+              >&copy; 2025 Google LLC</span
+            >
+          </div>
+        </div>
+
+        <div
+          class="main-margin main scroll-bar-main"
+          style="width: 85vw; max-height: 92vh; margin: 0 30px"
+        >
+          <div
+            class="align-items-center justify-content-between latest-section"
+          >
+            <div>
+              <span class="text-white fs-5 fw-bold">Latest</span>
+            </div>
+            <div class="d-flex gap-3 align-items-center">
+              <a href="#" class="text-decoration-none fw-bold">Manage</a>
+              <div>
+                <img src="images/icons/grid.svg" alt="grid" />
+              </div>
+              <div>
+                <img src="images/icons/list.svg" alt="list" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="justify-content-between mt-2 mb-2 border-bottom border-light-subtle w-100 gap-2 scroll-flex subscriptions-bar"
+          >
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub1.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Dodagatta Nihar</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub2.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Harsha Verse</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub3.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Browney</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub4.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Jasti</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub5.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Mr Beast</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub6.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Pranay Varma</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub7.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Vamsi Kurapati</span
+                  >
+                </div>
+              </a>
+            </div>
+
+            <div style="min-width: 50px; max-width: 100px; font-size: 10px">
+              <a href="channel.html" class="text-decoration-none text-white">
+                <div class="d-flex flex-column gap-2">
+                  <img
+                    src="images/subscriptions/sub8.png"
+                    alt="Subscriptions"
+                    class="rounded-circle align-self-center"
+                    style="width: 100%"
+                  />
+                  <span
+                    class="text-nowrap text-center"
+                    style="overflow: hidden; text-overflow: ellipsis"
+                    >Vithin Cine</span
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="pt-3 pb-4 w-100">
+            <div>
+              <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1 fs-6">
+                              I Bought My First Car.....
+                            </p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 14px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1 fs-6">
+                              I Bought My First Car.....
+                            </p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 14px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                  <a href="#" class="text-decoration-none text-white">
+                    <div class="d-flex flex-column gap-3">
+                      <div class="position-relative top-0">
+                        <img
+                          src="images/thumbnails/thumbnail1.png"
+                          alt="thumbnail1"
+                          class="rounded w-100"
+                        />
+                        <div
+                          class="position-absolute bottom-0 m-2 rounded text-white"
+                          style="
+                            right: 5px;
+                            font-size: 13px;
+                            background-color: #272727;
+                            padding: 2px 5px;
+                          "
+                        >
+                          <span>7:09</span>
+                        </div>
+                      </div>
+
+                      <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-3 w-100">
+                          <div>
+                            <img
+                              src="images/channel-profiles/profile1.png"
+                              alt="profile1"
+                              style="width: 35px"
+                              class="rounded-circle"
+                            />
+                          </div>
+                          <div>
+                            <p class="m-0 pb-1">I Bought My First Car.....</p>
+                            <div
+                              class="d-flex flex-column"
+                              style="font-size: 15px; color: grey"
+                            >
+                              <a
+                                href="#"
+                                class="text-decoration-none channel-hover text-grey"
+                                >IShowSpeed</a
+                              >
+                              <span>67 lakh views • 11 months ago</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="pt-5">
+                <div
+                  class="d-flex justify-content-between align-items-center pb-3"
+                >
+                  <div class="d-flex gap-2 align-items-center">
+                    <img src="images/icons/shorts-logo.svg" alt="shorts-logo" />
+                    <span class="text-white fs-5 fw-bold">Shorts</span>
+                  </div>
+                  <a href="#" class="text-decoration-none fw-bold">View all</a>
+                </div>
+
+                <div>
+                  <div class="d-flex gap-3 flex-nowrap g-3 scroll-flex">
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 14px"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 14px"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 14px"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 14px"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 14px"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+
+                    <div
+                      class="d-flex flex-column flex-grow-1"
+                      style="min-width: 200px; max-width: 400px"
+                    >
+                      <div>
+                        <img
+                          src="images/thumbnails/short-thumbnail2.png"
+                          alt="Short Thumbanail"
+                          class="w-100 rounded img-fluid"
+                        />
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center w-100 pt-1"
+                      >
+                        <span class="text-white fw-bold" style="font-size: 14px"
+                          >Hey guys part 32 #telugu #hyderabad #telangana
+                          #andhrapradesh</span
+                        >
+                        <div>
+                          <img src="images/icons/options.svg" alt="options" />
+                        </div>
+                      </div>
+                      <div>
+                        <span style="color: #979696; font-size: 0.9em"
+                          >10 lakh views</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="position-sticky bottom-0 footer w-100 pt-1 pb-1 border-top footer"
+        style="background: #0f0f0f"
+      >
+        <div class="d-flex justify-content-around w-100 h-100">
+          <div>
+            <a
+              href="home.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none"
+            >
+              <img src="images/icons/home.svg" alt="home" />
+              <span class="text-white">Home</span>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="#"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none"
+            >
+              <img src="images/icons/shorts.svg" alt="shorts" />
+              <span class="text-white">Shorts</span>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="subscriptions.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none"
+            >
+              <img src="images/icons/subscriptions.svg" alt="" />
+              <span class="text-white">Subscriptions</span>
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="watch-later.html"
+              class="d-flex flex-column align-items-center gap-1 text-decoration-none"
+            >
+              <img
+                src="images/Gnani Profile_1.png"
+                alt="profile picture"
+                width="30"
+                height="30"
+              />
+              <span class="text-white">You</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
